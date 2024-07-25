@@ -29,6 +29,9 @@
             <origin xyz="0 0 ${base_height/2}" rpy="0 0 0"/>
         </collision>
 
+        <xacro:box_inertia m="5.0" l="${2*base_size}" w="${2*base_size}" h="${2*base_height}"
+                           xyz="0 0 ${base_height/2}" rpy="0 0 0"/>
+
     </link>
 
     <link name="base_footprint"/>
@@ -46,8 +49,11 @@
             <geometry>
                 <cylinder radius="${joint_radius_1}" length="${joint_length_1}"/>
             </geometry>
-            <origin xyz="0 0 ${joint_length_1/2}" rpy="0 0 0 "/>
+            <origin xyz="0 0 ${joint_length_1/2}" rpy="0 0 0"/>
         </collision>
+
+        <xacro:cylinder_inertia m="1.0" r="${2*joint_radius_1}" l="${2*joint_length_1}"
+                                xyz="0 0 ${joint_length_1/2}" rpy="0 0 0"/>
 
     </link>
 
@@ -66,6 +72,8 @@
             </geometry>
             <origin xyz="0 0 0" rpy="0 0 0"/>
         </collision>
+
+        <xacro:sphere_inertia m="0.5" r="${2*solid_radius}" xyz="0 0 0" rpy="0 0 0"/>
 
     </link>
 
@@ -86,6 +94,9 @@
             <origin xyz="0 0 ${joint_length_2/2}" rpy="0 0 0"/>
         </collision>
 
+        <xacro:cylinder_inertia m="1.0" r="${2*joint_radius_1 * 0.8}" l="${2*joint_length_2}"
+                                xyz="0 0 ${joint_length_2/2}" rpy="0 0 0"/>
+
     </link>
 
     <link name="solid_2">
@@ -103,6 +114,8 @@
             </geometry>
             <origin xyz="0 0 0" rpy="0 0 0"/>
         </collision>
+
+        <xacro:sphere_inertia m="0.5" r="${2*solid_radius}" xyz="0 0 0" rpy="0 0 0"/>
 
     </link>
 
@@ -122,6 +135,9 @@
             <origin xyz="0 0 ${joint_length_2/2}" rpy="0 0 0"/>
         </collision>
 
+        <xacro:cylinder_inertia m="1.0" r="${2*joint_radius_1 * 0.6}" l="${2*joint_length_2}"
+                                xyz="0 0 ${joint_length_2/2}" rpy="0 0 0"/>
+
     </link>
 
     <link name="gripper">
@@ -139,6 +155,8 @@
             </geometry>
             <origin xyz="0 0 0" rpy="0 0 0"/>
         </collision>
+
+        <xacro:sphere_inertia m="0.5" r="${2*solid_radius * 0.8}" xyz="0 0 0" rpy="0 0 0"/>
 
     </link>
     
