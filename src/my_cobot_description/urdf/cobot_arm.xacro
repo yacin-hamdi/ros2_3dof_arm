@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <xacro:property name="base_height" value="0.2"/>
+    <xacro:property name="base_size" value="0.4" />
+    <xacro:property name="joint_radius_1" value="0.1" />
+    <xacro:property name="joint_length_1" value="0.3" />
+    <xacro:property name="joint_length_2" value="0.8"/>
+
+
+    <xacro:property name="solid_radius" value="0.15"/>
+
+
+    
+
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <box size="${base_size} ${base_size} ${base_height}"/>
+            </geometry>
+            <origin xyz="0 0 ${base_height/2}" rpy="0 0 0"/>
+            <material name="grey"/>
+        </visual>
+    </link>
+
+    <link name="base_footprint"/>
+
+    <link name="link_1">
+        <visual>
+            <geometry>
+                <cylinder radius="${joint_radius_1}" length="${joint_length_1}"/>
+            </geometry>
+            <origin xyz="0 0 ${joint_length_1/2}" rpy="0 0 0 "/>
+            <material name="blue"/>
+        </visual>
+
+    </link>
+
+    <link name="solid_1">
+        <visual>
+            <geometry>
+                <sphere radius="${solid_radius}"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <material name="yellow"/>
+        </visual>
+    </link>
+
+
+    <link name="link_2">
+        <visual>
+            <geometry>
+                <cylinder radius="${joint_radius_1 * 0.8}" length="${joint_length_2}"/>
+            </geometry>
+            <origin xyz="0 0 ${joint_length_2/2}" rpy="0 0 0"/>
+            <material name="blue"/>
+        </visual>
+    </link>
+
+    <link name="solid_2">
+        <visual>
+            <geometry>
+                <sphere radius="${solid_radius}"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <material name="yellow"/>
+        </visual>
+    </link>
+
+    <link name="link_3">
+        <visual>
+            <geometry>
+                <cylinder radius="${joint_radius_1 * 0.6}" length="${joint_length_2}"/>
+            </geometry>
+            <origin xyz="0 0 ${joint_length_2/2}" rpy="0 0 0"/>
+            <material name="blue"/>
+        </visual>
+    </link>
+
+    
+
+    <joint name="base_joint" type="fixed">
+        <parent link="base_footprint"/>
+        <child link="base_link"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>
+
+    <joint name="base_joint_1" type="continuous">
+        <parent link="base_link"/>
+        <child link="link_1"/>
+        <origin xyz="0 0 ${base_height}" rpy="0 0 0"/>
+        <axis xyz="0 0 1"/>
+    </joint>
+
+    <joint name="joint_1_solid" type="fixed">
+        <parent link="link_1"/>
+        <child link="solid_1"/>
+        <origin xyz="0 0 ${joint_length_1}" rpy="0 0 0"/>
+    </joint>
+
+    <joint name="solid_1_joint" type="continuous">
+        <parent link="solid_1"/>
+        <child link="link_2"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+
+    <joint name="joint_2_solid" type="fixed">
+        <parent link="link_2"/>
+        <child link="solid_2"/>
+        <origin xyz="0 0 ${joint_length_2}" rpy="0 0 0"/>
+    </joint>
+
+    <joint name="solid_2_joint" type="continuous">
+        <parent link="solid_2"/>
+        <child link="link_3"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+
+    
+</robot>

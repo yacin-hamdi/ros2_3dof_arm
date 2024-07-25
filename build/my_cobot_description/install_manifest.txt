@@ -1,0 +1,15 @@
+/home/moose/ros2_ws/install/my_cobot_description/share/ament_index/resource_index/package_run_dependencies/my_cobot_description
+/home/moose/ros2_ws/install/my_cobot_description/share/ament_index/resource_index/parent_prefix_path/my_cobot_description
+/home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/environment/ament_prefix_path.sh
+/home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/environment/ament_prefix_path.dsv
+/home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/environment/path.sh
+/home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/environment/path.dsv
+/home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/local_setup.bash
+/home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/local_setup.sh
+/home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/local_setup.zsh
+/home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/local_setup.dsv
+/home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/package.dsv
+/home/moose/ros2_ws/install/my_cobot_description/share/ament_index/resource_index/packages/my_cobot_description
+/home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/cmake/my_cobot_descriptionConfig.cmake
+/home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/cmake/my_cobot_descriptionConfig-version.cmake
+/home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/package.xml
