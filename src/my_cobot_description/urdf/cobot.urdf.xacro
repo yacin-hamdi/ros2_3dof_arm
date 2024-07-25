@@ -3,6 +3,8 @@
 
     <xacro:include filename="common_properties.xacro"/>
     <xacro:include filename="cobot_arm.xacro"/>
+    <xacro:include filename="cobot_arm_gazebo.xacro"/>
+
 
 
 </robot>
