@@ -21,6 +21,14 @@
             <origin xyz="0 0 ${base_height/2}" rpy="0 0 0"/>
             <material name="grey"/>
         </visual>
+
+        <collision>
+            <geometry>
+                <box size="${base_size} ${base_size} ${base_height}"/>
+            </geometry>
+            <origin xyz="0 0 ${base_height/2}" rpy="0 0 0"/>
+        </collision>
+
     </link>
 
     <link name="base_footprint"/>
@@ -34,6 +42,13 @@
             <material name="blue"/>
         </visual>
 
+        <collision>
+            <geometry>
+                <cylinder radius="${joint_radius_1}" length="${joint_length_1}"/>
+            </geometry>
+            <origin xyz="0 0 ${joint_length_1/2}" rpy="0 0 0 "/>
+        </collision>
+
     </link>
 
     <link name="solid_1">
@@ -44,6 +59,14 @@
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <material name="yellow"/>
         </visual>
+
+        <collision>
+            <geometry>
+                <sphere radius="${solid_radius}"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </collision>
+
     </link>
 
 
@@ -55,6 +78,14 @@
             <origin xyz="0 0 ${joint_length_2/2}" rpy="0 0 0"/>
             <material name="blue"/>
         </visual>
+
+        <collision>
+            <geometry>
+                <cylinder radius="${joint_radius_1 * 0.8}" length="${joint_length_2}"/>
+            </geometry>
+            <origin xyz="0 0 ${joint_length_2/2}" rpy="0 0 0"/>
+        </collision>
+
     </link>
 
     <link name="solid_2">
@@ -65,6 +96,14 @@
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <material name="yellow"/>
         </visual>
+
+        <collision>
+            <geometry>
+                <sphere radius="${solid_radius}"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </collision>
+
     </link>
 
     <link name="link_3">
@@ -75,6 +114,14 @@
             <origin xyz="0 0 ${joint_length_2/2}" rpy="0 0 0"/>
             <material name="blue"/>
         </visual>
+
+        <collision>
+            <geometry>
+                <cylinder radius="${joint_radius_1 * 0.6}" length="${joint_length_2}"/>
+            </geometry>
+            <origin xyz="0 0 ${joint_length_2/2}" rpy="0 0 0"/>
+        </collision>
+
     </link>
 
     <link name="gripper">
@@ -85,6 +132,14 @@
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <material name="red"/>
         </visual>
+
+        <collision>
+            <geometry>
+                <sphere radius="${solid_radius * 0.8}"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </collision>
+
     </link>
     
 
