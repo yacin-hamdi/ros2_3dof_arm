@@ -77,6 +77,15 @@
         </visual>
     </link>
 
+    <link name="gripper">
+        <visual>
+            <geometry>
+                <sphere radius="${solid_radius * 0.8}"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <material name="red"/>
+        </visual>
+    </link>
     
 
     <joint name="base_joint" type="fixed">
@@ -116,6 +125,12 @@
         <child link="link_3"/>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <axis xyz="0 1 0"/>
+    </joint>
+
+    <joint name="end_effector" type="fixed">
+        <parent link="link_3"/>
+        <child link="gripper"/>
+        <origin xyz="0 0 ${joint_length_2}" rpy="0 0 0"/>
     </joint>
 
     
