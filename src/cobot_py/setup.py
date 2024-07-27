@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "move_arm = cobot_py.move_arm:main"
         ],
     },
 )

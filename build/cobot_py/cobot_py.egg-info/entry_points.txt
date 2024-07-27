@@ -1,0 +1,3 @@
+[console_scripts]
+move_arm = cobot_py.move_arm:main
+
