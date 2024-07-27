@@ -1,0 +1,4 @@
+Invoking command in '/home/moose/ros2_ws/build/my_cobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moose/ros2_ws/build/my_cobot_description -- -j4 -l4
+Invoked command in '/home/moose/ros2_ws/build/my_cobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moose/ros2_ws/build/my_cobot_description -- -j4 -l4
+Invoking command in '/home/moose/ros2_ws/build/my_cobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/moose/ros2_ws/build/my_cobot_description
+Invoked command in '/home/moose/ros2_ws/build/my_cobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/moose/ros2_ws/build/my_cobot_description
