@@ -1,3 +1,7 @@
+/home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/urdf/cobot_arm.xacro
+/home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/urdf/cobot_arm_gazebo.xacro
+/home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/urdf/common_properties.xacro
+/home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/urdf/cobot.urdf.xacro
 /home/moose/ros2_ws/install/my_cobot_description/share/ament_index/resource_index/package_run_dependencies/my_cobot_description
 /home/moose/ros2_ws/install/my_cobot_description/share/ament_index/resource_index/parent_prefix_path/my_cobot_description
 /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/environment/ament_prefix_path.sh

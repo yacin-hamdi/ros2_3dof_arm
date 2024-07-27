@@ -1,0 +1,21 @@
+-- Install configuration: ""
+-- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/urdf
+-- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/urdf/cobot_arm.xacro
+-- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/urdf/cobot_arm_gazebo.xacro
+-- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/urdf/common_properties.xacro
+-- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/urdf/cobot.urdf.xacro
+-- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/ament_index/resource_index/package_run_dependencies/my_cobot_description
+-- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/ament_index/resource_index/parent_prefix_path/my_cobot_description
+-- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/environment/ament_prefix_path.sh
+-- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/environment/path.sh
+-- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/environment/path.dsv
+-- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/local_setup.bash
+-- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/local_setup.sh
+-- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/local_setup.zsh
+-- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/local_setup.dsv
+-- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/package.dsv
+-- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/ament_index/resource_index/packages/my_cobot_description
+-- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/cmake/my_cobot_descriptionConfig.cmake
+-- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/cmake/my_cobot_descriptionConfig-version.cmake
+-- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/package.xml
