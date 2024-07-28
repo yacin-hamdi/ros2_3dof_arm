@@ -1,0 +1,22 @@
+[0.858s] Invoking command in '/home/moose/ros2_ws/build/my_cobot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moose/ros2_ws/install/cobot_py:/opt/ros/humble /usr/bin/cmake --build /home/moose/ros2_ws/build/my_cobot_bringup -- -j4 -l4
+[1.032s] Invoked command in '/home/moose/ros2_ws/build/my_cobot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moose/ros2_ws/install/cobot_py:/opt/ros/humble /usr/bin/cmake --build /home/moose/ros2_ws/build/my_cobot_bringup -- -j4 -l4
+[1.145s] Invoking command in '/home/moose/ros2_ws/build/my_cobot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moose/ros2_ws/install/cobot_py:/opt/ros/humble /usr/bin/cmake --install /home/moose/ros2_ws/build/my_cobot_bringup
+[1.205s] -- Install configuration: ""
+[1.205s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_bringup/share/my_cobot_bringup/launch
+[1.205s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_bringup/share/my_cobot_bringup/launch/cobot_gazebo.launch.xml
+[1.206s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_bringup/share/ament_index/resource_index/package_run_dependencies/my_cobot_bringup
+[1.206s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_bringup/share/ament_index/resource_index/parent_prefix_path/my_cobot_bringup
+[1.206s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_bringup/share/my_cobot_bringup/environment/ament_prefix_path.sh
+[1.207s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_bringup/share/my_cobot_bringup/environment/ament_prefix_path.dsv
+[1.207s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_bringup/share/my_cobot_bringup/environment/path.sh
+[1.207s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_bringup/share/my_cobot_bringup/environment/path.dsv
+[1.207s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_bringup/share/my_cobot_bringup/local_setup.bash
+[1.208s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_bringup/share/my_cobot_bringup/local_setup.sh
+[1.208s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_bringup/share/my_cobot_bringup/local_setup.zsh
+[1.208s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_bringup/share/my_cobot_bringup/local_setup.dsv
+[1.208s] -- Installing: /home/moose/ros2_ws/install/my_cobot_bringup/share/my_cobot_bringup/package.dsv
+[1.209s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_bringup/share/ament_index/resource_index/packages/my_cobot_bringup
+[1.209s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_bringup/share/my_cobot_bringup/cmake/my_cobot_bringupConfig.cmake
+[1.209s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_bringup/share/my_cobot_bringup/cmake/my_cobot_bringupConfig-version.cmake
+[1.209s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_bringup/share/my_cobot_bringup/package.xml
+[1.233s] Invoked command in '/home/moose/ros2_ws/build/my_cobot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moose/ros2_ws/install/cobot_py:/opt/ros/humble /usr/bin/cmake --install /home/moose/ros2_ws/build/my_cobot_bringup

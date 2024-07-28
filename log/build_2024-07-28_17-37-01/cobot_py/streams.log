@@ -1,0 +1,21 @@
+[2.155s] Invoking command in '/home/moose/ros2_ws/src/cobot_py': PYTHONPATH=/home/moose/ros2_ws/build/cobot_py/prefix_override:/home/moose/ros2_ws/install/cobot_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cobot_py build --build-base /home/moose/ros2_ws/build/cobot_py/build install --record /home/moose/ros2_ws/build/cobot_py/install.log --single-version-externally-managed install_data
+[2.795s] running egg_info
+[2.795s] writing ../../build/cobot_py/cobot_py.egg-info/PKG-INFO
+[2.796s] writing dependency_links to ../../build/cobot_py/cobot_py.egg-info/dependency_links.txt
+[2.796s] writing entry points to ../../build/cobot_py/cobot_py.egg-info/entry_points.txt
+[2.796s] writing requirements to ../../build/cobot_py/cobot_py.egg-info/requires.txt
+[2.797s] writing top-level names to ../../build/cobot_py/cobot_py.egg-info/top_level.txt
+[2.824s] reading manifest file '../../build/cobot_py/cobot_py.egg-info/SOURCES.txt'
+[2.825s] writing manifest file '../../build/cobot_py/cobot_py.egg-info/SOURCES.txt'
+[2.825s] running build
+[2.825s] running build_py
+[2.825s] running install
+[2.826s] running install_lib
+[2.828s] running install_data
+[2.828s] running install_egg_info
+[2.830s] removing '/home/moose/ros2_ws/install/cobot_py/lib/python3.10/site-packages/cobot_py-0.0.0-py3.10.egg-info' (and everything under it)
+[2.830s] Copying ../../build/cobot_py/cobot_py.egg-info to /home/moose/ros2_ws/install/cobot_py/lib/python3.10/site-packages/cobot_py-0.0.0-py3.10.egg-info
+[2.831s] running install_scripts
+[2.878s] Installing move_arm script to /home/moose/ros2_ws/install/cobot_py/lib/cobot_py
+[2.879s] writing list of installed files to '/home/moose/ros2_ws/build/cobot_py/install.log'
+[2.970s] Invoked command in '/home/moose/ros2_ws/src/cobot_py' returned '0': PYTHONPATH=/home/moose/ros2_ws/build/cobot_py/prefix_override:/home/moose/ros2_ws/install/cobot_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cobot_py build --build-base /home/moose/ros2_ws/build/cobot_py/build install --record /home/moose/ros2_ws/build/cobot_py/install.log --single-version-externally-managed install_data

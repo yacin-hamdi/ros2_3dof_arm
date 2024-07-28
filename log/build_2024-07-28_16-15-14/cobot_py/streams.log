@@ -1,0 +1,24 @@
+[1.829s] Invoking command in '/home/moose/ros2_ws/src/cobot_py': PYTHONPATH=/home/moose/ros2_ws/build/cobot_py/prefix_override:/home/moose/ros2_ws/install/cobot_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cobot_py build --build-base /home/moose/ros2_ws/build/cobot_py/build install --record /home/moose/ros2_ws/build/cobot_py/install.log --single-version-externally-managed install_data
+[2.422s] running egg_info
+[2.424s] writing ../../build/cobot_py/cobot_py.egg-info/PKG-INFO
+[2.424s] writing dependency_links to ../../build/cobot_py/cobot_py.egg-info/dependency_links.txt
+[2.425s] writing entry points to ../../build/cobot_py/cobot_py.egg-info/entry_points.txt
+[2.425s] writing requirements to ../../build/cobot_py/cobot_py.egg-info/requires.txt
+[2.426s] writing top-level names to ../../build/cobot_py/cobot_py.egg-info/top_level.txt
+[2.430s] reading manifest file '../../build/cobot_py/cobot_py.egg-info/SOURCES.txt'
+[2.431s] writing manifest file '../../build/cobot_py/cobot_py.egg-info/SOURCES.txt'
+[2.432s] running build
+[2.432s] running build_py
+[2.432s] copying cobot_py/move_arm.py -> /home/moose/ros2_ws/build/cobot_py/build/lib/cobot_py
+[2.433s] running install
+[2.434s] running install_lib
+[2.436s] copying /home/moose/ros2_ws/build/cobot_py/build/lib/cobot_py/move_arm.py -> /home/moose/ros2_ws/install/cobot_py/lib/python3.10/site-packages/cobot_py
+[2.437s] byte-compiling /home/moose/ros2_ws/install/cobot_py/lib/python3.10/site-packages/cobot_py/move_arm.py to move_arm.cpython-310.pyc
+[2.439s] running install_data
+[2.439s] running install_egg_info
+[2.441s] removing '/home/moose/ros2_ws/install/cobot_py/lib/python3.10/site-packages/cobot_py-0.0.0-py3.10.egg-info' (and everything under it)
+[2.442s] Copying ../../build/cobot_py/cobot_py.egg-info to /home/moose/ros2_ws/install/cobot_py/lib/python3.10/site-packages/cobot_py-0.0.0-py3.10.egg-info
+[2.443s] running install_scripts
+[2.484s] Installing move_arm script to /home/moose/ros2_ws/install/cobot_py/lib/cobot_py
+[2.485s] writing list of installed files to '/home/moose/ros2_ws/build/cobot_py/install.log'
+[2.559s] Invoked command in '/home/moose/ros2_ws/src/cobot_py' returned '0': PYTHONPATH=/home/moose/ros2_ws/build/cobot_py/prefix_override:/home/moose/ros2_ws/install/cobot_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cobot_py build --build-base /home/moose/ros2_ws/build/cobot_py/build install --record /home/moose/ros2_ws/build/cobot_py/install.log --single-version-externally-managed install_data
