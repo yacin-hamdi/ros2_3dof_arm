@@ -15,61 +15,83 @@ class MoveArm(Node):
         self.solid_2_joint_angle_ = .0
         self.solid_1_joint_angle_ = .0
         self.base_joint_1_ = .0
-        self.x_ = 400.0
-        self.y_ = 400.0
+        self.x_ = 0.0
+        self.y_ = 0.0
+        self.z_ = 400.0
 
-        self.a = 800.0
+        self.l1 = 300.0
+        self.l2 = 800.0
+        self.l3 = 800.0
 
         self.state = True
 
-        self.timer_ = self.create_timer(1., self.move_rectangle)
+        self.timer_ = self.create_timer(0.01, self.publish_pos)
 
 
 
     def publish_pos(self):
-        # if self.x_ >= 1350.0:
-        #     self.state = False
-        # elif self.x_ <= 10.0:
-        #     self.state = True
+        if self.z_ >= 1350.0:
+            self.state = False
+        elif self.z_ <= 600.0:
+            self.state = True
 
-        # if self.state:
-        #     self.x_ += 1
-        # else:
-        #     self.x_ -= 1
-        q1, q2 = self.inverse_kinematic(self.x_, self.y_)
+        if self.state:
+            self.z_ += 1
+        else:
+            self.z_ -= 1
+
+        
+
+        q1, q2, q3 = self.inverse_kinematic(self.x_, self.y_, self.z_)
         msg = JointTrajectory()
         msg.header.frame_id = "world"
         msg.joint_names = ["base_joint_1", "solid_1_joint", "solid_2_joint"]
         point = JointTrajectoryPoint()
-        point.positions = [self.base_joint_1_, q1, q2]
+        point.positions = [q1, q2, q3]
         msg.points = [point]
         self.move_publisher.publish(msg=msg)
 
     def move_rectangle(self):
-        while self.x_ >= 400.0:
-            self.x_ -= 1
-            self.publish_pos()
-        
-        while self.y_ <=1000.0:
-            self.y_ += 1
-            self.publish_pos()
-
-        while self.x_ <= 1000.0:
-            self.x_ += 1
-            self.publish_pos()
-        
         while self.y_ >= 400.0:
             self.y_ -= 1
             self.publish_pos()
+        
+        # while self.z_ <=1000.0:
+        #     self.z_ += 1
+        #     self.publish_pos()
 
-    def inverse_kinematic(self, x, y):
-        q2 = math.acos((x*x + y*y - self.a*self.a - self.a*self.a)/(2*self.a*self.a))
+        while self.y_ <= 1000.0:
+            self.y_ += 1
+            self.publish_pos()
+        
+        # while self.z_ >= 400.0:
+        #     self.z_ -= 1
+        #     self.publish_pos()
 
-        q1 = math.atan(y/x) - math.atan(self.a * math.sin(q2)/(self.a + self.a*math.cos(q2)))
+    def inverse_kinematic(self, x, y, z):
+        h = math.sqrt(x*x + y*y)
+        theta1 = math.atan2(y, x)
+        
+        r_2 = math.pow(z-self.l1, 2) + h*h
+        alpha = math.acos((self.l2*self.l2 + self.l3*self.l3 - r_2)/(2*self.l2*self.l3))
+        theta3 = math.pi - alpha
+        beta = math.atan2(z-self.l1, h)
+        phi = math.atan2(self.l3 * math.sin(theta3), self.l2 + self.l3*math.cos(theta3))
+        theta2 = beta - phi
+
+        # h = math.sqrt(x*x + y*y)
+        # r_2 = x*x + y*y
+        # alpha = math.acos((self.a*self.a + self.a*self.a - r_2)/(2*self.a*self.a))
+        # q2 = math.pi - alpha
+
+        # psi = math.atan2(self.a*math.sin(q2), self.a + self.a*math.cos(q2))
+        # beta = math.atan2(y, x)
+        # q1 = beta - psi
+
 
         
-        self.get_logger().info(f"q1:{q1}, q2:{q2}")
-        return q1, q2
+        self.get_logger().info(f"q1:{theta1}, q2:{theta2}, q3:{theta3}")
+        return theta1, theta2, theta3
 
 
 

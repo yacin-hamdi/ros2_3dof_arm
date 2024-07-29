@@ -172,7 +172,7 @@
         <child link="link_1"/>
         <origin xyz="0 0 ${base_height}" rpy="0 0 0"/>
         <axis xyz="0 0 1"/>
-        <limit lower="${-pi/2}" upper="${pi/2}" effort="100" velocity="100"/>
+        <limit lower="${-pi}" upper="${pi}" effort="100" velocity="100"/>
         <dynamics friction="1000" damping="1000"/>
     </joint>
 
@@ -187,7 +187,7 @@
         <child link="link_2"/>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <axis xyz="0 1 0"/>
-        <limit lower="${-pi/2}" upper="${pi/2}" effort="100" velocity="100"/>
+        <limit lower="${-pi}" upper="${pi}" effort="100" velocity="100"/>
         <dynamics friction="1000" damping="1000"/>
     </joint>
 
@@ -202,7 +202,7 @@
         <child link="link_3"/>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <axis xyz="0 1 0"/>
-        <limit lower="${-pi/2}" upper="${5*pi/6}" effort="100" velocity="100"/>
+        <limit lower="${-pi}" upper="${pi}" effort="100" velocity="100"/>
         <dynamics friction="1000" damping="1000"/>
     </joint>
 
