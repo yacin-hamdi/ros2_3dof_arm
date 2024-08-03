@@ -1,0 +1,254 @@
+[0.171s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.171s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7e01e8d3f460>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e01e8ebb6d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e01e8ebb6d0>>, mixin_verb=('build',))
+[0.406s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.406s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.406s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.406s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.406s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.406s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.407s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/moose/ros2_ws'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_py) by extensions ['ignore', 'ignore_ament_install']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_py) by extension 'ignore'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_py) by extension 'ignore_ament_install'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_py) by extensions ['colcon_pkg']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_py) by extension 'colcon_pkg'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_py) by extensions ['colcon_meta']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_py) by extension 'colcon_meta'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_py) by extensions ['ros']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/cobot_py) by extension 'ros'
+[0.440s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cobot_py' with type 'ros.ament_python' and name 'cobot_py'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cobot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cobot_bringup) by extension 'ignore'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cobot_bringup) by extension 'ignore_ament_install'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cobot_bringup) by extensions ['colcon_pkg']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cobot_bringup) by extension 'colcon_pkg'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cobot_bringup) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cobot_bringup) by extension 'colcon_meta'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cobot_bringup) by extensions ['ros']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cobot_bringup) by extension 'ros'
+[0.441s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_cobot_bringup' with type 'ros.ament_cmake' and name 'my_cobot_bringup'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cobot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cobot_description) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cobot_description) by extension 'ignore_ament_install'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cobot_description) by extensions ['colcon_pkg']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cobot_description) by extension 'colcon_pkg'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cobot_description) by extensions ['colcon_meta']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cobot_description) by extension 'colcon_meta'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cobot_description) by extensions ['ros']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cobot_description) by extension 'ros'
+[0.442s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_cobot_description' with type 'ros.ament_cmake' and name 'my_cobot_description'
+[0.442s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.442s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.442s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.442s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.442s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.467s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/moose/ros2_ws/install
+[0.469s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 422 installed packages in /opt/ros/humble
+[0.471s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'cobot_py' build argument 'cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'cobot_py' build argument 'cmake_target' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'cobot_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'cobot_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'cobot_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'cobot_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'cobot_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'cobot_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'cobot_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.534s] DEBUG:colcon.colcon_core.verb:Building package 'cobot_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/moose/ros2_ws/build/cobot_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/moose/ros2_ws/install/cobot_py', 'merge_install': False, 'path': '/home/moose/ros2_ws/src/cobot_py', 'symlink_install': False, 'test_result_base': None}
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'my_cobot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'my_cobot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'my_cobot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'my_cobot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'my_cobot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'my_cobot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'my_cobot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'my_cobot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'my_cobot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.535s] DEBUG:colcon.colcon_core.verb:Building package 'my_cobot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/moose/ros2_ws/build/my_cobot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/moose/ros2_ws/install/my_cobot_bringup', 'merge_install': False, 'path': '/home/moose/ros2_ws/src/my_cobot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'my_cobot_description' build argument 'cmake_args' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'my_cobot_description' build argument 'cmake_target' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'my_cobot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'my_cobot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'my_cobot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'my_cobot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'my_cobot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'my_cobot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'my_cobot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.536s] DEBUG:colcon.colcon_core.verb:Building package 'my_cobot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/moose/ros2_ws/build/my_cobot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/moose/ros2_ws/install/my_cobot_description', 'merge_install': False, 'path': '/home/moose/ros2_ws/src/my_cobot_description', 'symlink_install': False, 'test_result_base': None}
+[0.536s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.537s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.537s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/moose/ros2_ws/src/cobot_py' with build type 'ament_python'
+[0.537s] Level 1:colcon.colcon_core.shell:create_environment_hook('cobot_py', 'ament_prefix_path')
+[0.540s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/moose/ros2_ws/install/cobot_py/share/cobot_py/hook/ament_prefix_path.ps1'
+[0.541s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/moose/ros2_ws/install/cobot_py/share/cobot_py/hook/ament_prefix_path.dsv'
+[0.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/moose/ros2_ws/install/cobot_py/share/cobot_py/hook/ament_prefix_path.sh'
+[0.542s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.543s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.547s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/moose/ros2_ws/src/my_cobot_bringup' with build type 'ament_cmake'
+[0.547s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/moose/ros2_ws/src/my_cobot_bringup'
+[0.547s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.547s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.552s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/moose/ros2_ws/src/my_cobot_description' with build type 'ament_cmake'
+[0.552s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/moose/ros2_ws/src/my_cobot_description'
+[0.552s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.552s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.957s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/moose/ros2_ws/src/cobot_py'
+[0.957s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.957s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/moose/ros2_ws/build/my_cobot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moose/ros2_ws/install/cobot_py:/opt/ros/humble /usr/bin/cmake --build /home/moose/ros2_ws/build/my_cobot_bringup -- -j4 -l4
+[0.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/moose/ros2_ws/build/my_cobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moose/ros2_ws/install/cobot_py:/opt/ros/humble /usr/bin/cmake --build /home/moose/ros2_ws/build/my_cobot_description -- -j4 -l4
+[1.038s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/moose/ros2_ws/build/my_cobot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moose/ros2_ws/install/cobot_py:/opt/ros/humble /usr/bin/cmake --build /home/moose/ros2_ws/build/my_cobot_bringup -- -j4 -l4
+[1.043s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/moose/ros2_ws/build/my_cobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moose/ros2_ws/install/cobot_py:/opt/ros/humble /usr/bin/cmake --build /home/moose/ros2_ws/build/my_cobot_description -- -j4 -l4
+[1.101s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/moose/ros2_ws/build/my_cobot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moose/ros2_ws/install/cobot_py:/opt/ros/humble /usr/bin/cmake --install /home/moose/ros2_ws/build/my_cobot_bringup
+[1.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/moose/ros2_ws/build/my_cobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moose/ros2_ws/install/cobot_py:/opt/ros/humble /usr/bin/cmake --install /home/moose/ros2_ws/build/my_cobot_description
+[1.128s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_cobot_bringup)
+[1.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/moose/ros2_ws/build/my_cobot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moose/ros2_ws/install/cobot_py:/opt/ros/humble /usr/bin/cmake --install /home/moose/ros2_ws/build/my_cobot_bringup
+[1.138s] Level 1:colcon.colcon_core.environment:checking '/home/moose/ros2_ws/install/my_cobot_bringup' for CMake module files
+[1.140s] Level 1:colcon.colcon_core.environment:checking '/home/moose/ros2_ws/install/my_cobot_bringup' for CMake config files
+[1.140s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_cobot_bringup', 'cmake_prefix_path')
+[1.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/moose/ros2_ws/install/my_cobot_bringup/share/my_cobot_bringup/hook/cmake_prefix_path.ps1'
+[1.141s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/moose/ros2_ws/install/my_cobot_bringup/share/my_cobot_bringup/hook/cmake_prefix_path.dsv'
+[1.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/moose/ros2_ws/install/my_cobot_bringup/share/my_cobot_bringup/hook/cmake_prefix_path.sh'
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/moose/ros2_ws/install/my_cobot_bringup/bin'
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/moose/ros2_ws/install/my_cobot_bringup/lib/pkgconfig/my_cobot_bringup.pc'
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/moose/ros2_ws/install/my_cobot_bringup/lib/python3.10/site-packages'
+[1.144s] Level 1:colcon.colcon_core.environment:checking '/home/moose/ros2_ws/install/my_cobot_bringup/bin'
+[1.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/moose/ros2_ws/install/my_cobot_bringup/share/my_cobot_bringup/package.ps1'
+[1.145s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/moose/ros2_ws/install/my_cobot_bringup/share/my_cobot_bringup/package.dsv'
+[1.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/moose/ros2_ws/install/my_cobot_bringup/share/my_cobot_bringup/package.sh'
+[1.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/moose/ros2_ws/install/my_cobot_bringup/share/my_cobot_bringup/package.bash'
+[1.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/moose/ros2_ws/install/my_cobot_bringup/share/my_cobot_bringup/package.zsh'
+[1.149s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/moose/ros2_ws/install/my_cobot_bringup/share/colcon-core/packages/my_cobot_bringup)
+[1.152s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_cobot_description)
+[1.153s] Level 1:colcon.colcon_core.environment:checking '/home/moose/ros2_ws/install/my_cobot_description' for CMake module files
+[1.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/moose/ros2_ws/build/my_cobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moose/ros2_ws/install/cobot_py:/opt/ros/humble /usr/bin/cmake --install /home/moose/ros2_ws/build/my_cobot_description
+[1.155s] Level 1:colcon.colcon_core.environment:checking '/home/moose/ros2_ws/install/my_cobot_description' for CMake config files
+[1.156s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_cobot_description', 'cmake_prefix_path')
+[1.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/hook/cmake_prefix_path.ps1'
+[1.157s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/hook/cmake_prefix_path.dsv'
+[1.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/hook/cmake_prefix_path.sh'
+[1.159s] Level 1:colcon.colcon_core.environment:checking '/home/moose/ros2_ws/install/my_cobot_description/bin'
+[1.159s] Level 1:colcon.colcon_core.environment:checking '/home/moose/ros2_ws/install/my_cobot_description/lib/pkgconfig/my_cobot_description.pc'
+[1.160s] Level 1:colcon.colcon_core.environment:checking '/home/moose/ros2_ws/install/my_cobot_description/lib/python3.10/site-packages'
+[1.160s] Level 1:colcon.colcon_core.environment:checking '/home/moose/ros2_ws/install/my_cobot_description/bin'
+[1.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/package.ps1'
+[1.162s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/package.dsv'
+[1.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/package.sh'
+[1.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/package.bash'
+[1.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/package.zsh'
+[1.165s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/moose/ros2_ws/install/my_cobot_description/share/colcon-core/packages/my_cobot_description)
+[1.192s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_cobot_bringup)
+[1.192s] Level 1:colcon.colcon_core.environment:checking '/home/moose/ros2_ws/install/my_cobot_bringup' for CMake module files
+[1.193s] Level 1:colcon.colcon_core.environment:checking '/home/moose/ros2_ws/install/my_cobot_bringup' for CMake config files
+[1.194s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_cobot_bringup', 'cmake_prefix_path')
+[1.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/moose/ros2_ws/install/my_cobot_bringup/share/my_cobot_bringup/hook/cmake_prefix_path.ps1'
+[1.195s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/moose/ros2_ws/install/my_cobot_bringup/share/my_cobot_bringup/hook/cmake_prefix_path.dsv'
+[1.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/moose/ros2_ws/install/my_cobot_bringup/share/my_cobot_bringup/hook/cmake_prefix_path.sh'
+[1.197s] Level 1:colcon.colcon_core.environment:checking '/home/moose/ros2_ws/install/my_cobot_bringup/bin'
+[1.197s] Level 1:colcon.colcon_core.environment:checking '/home/moose/ros2_ws/install/my_cobot_bringup/lib/pkgconfig/my_cobot_bringup.pc'
+[1.198s] Level 1:colcon.colcon_core.environment:checking '/home/moose/ros2_ws/install/my_cobot_bringup/lib/python3.10/site-packages'
+[1.199s] Level 1:colcon.colcon_core.environment:checking '/home/moose/ros2_ws/install/my_cobot_bringup/bin'
+[1.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/moose/ros2_ws/install/my_cobot_bringup/share/my_cobot_bringup/package.ps1'
+[1.201s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/moose/ros2_ws/install/my_cobot_bringup/share/my_cobot_bringup/package.dsv'
+[1.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/moose/ros2_ws/install/my_cobot_bringup/share/my_cobot_bringup/package.sh'
+[1.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/moose/ros2_ws/install/my_cobot_bringup/share/my_cobot_bringup/package.bash'
+[1.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/moose/ros2_ws/install/my_cobot_bringup/share/my_cobot_bringup/package.zsh'
+[1.205s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/moose/ros2_ws/install/my_cobot_bringup/share/colcon-core/packages/my_cobot_bringup)
+[1.207s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_cobot_description)
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/home/moose/ros2_ws/install/my_cobot_description' for CMake module files
+[1.209s] Level 1:colcon.colcon_core.environment:checking '/home/moose/ros2_ws/install/my_cobot_description' for CMake config files
+[1.210s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_cobot_description', 'cmake_prefix_path')
+[1.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/hook/cmake_prefix_path.ps1'
+[1.212s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/hook/cmake_prefix_path.dsv'
+[1.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/hook/cmake_prefix_path.sh'
+[1.214s] Level 1:colcon.colcon_core.environment:checking '/home/moose/ros2_ws/install/my_cobot_description/bin'
+[1.214s] Level 1:colcon.colcon_core.environment:checking '/home/moose/ros2_ws/install/my_cobot_description/lib/pkgconfig/my_cobot_description.pc'
+[1.215s] Level 1:colcon.colcon_core.environment:checking '/home/moose/ros2_ws/install/my_cobot_description/lib/python3.10/site-packages'
+[1.215s] Level 1:colcon.colcon_core.environment:checking '/home/moose/ros2_ws/install/my_cobot_description/bin'
+[1.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/package.ps1'
+[1.218s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/package.dsv'
+[1.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/package.sh'
+[1.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/package.bash'
+[1.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/package.zsh'
+[1.222s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/moose/ros2_ws/install/my_cobot_description/share/colcon-core/packages/my_cobot_description)
+[1.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/moose/ros2_ws/src/cobot_py': PYTHONPATH=/home/moose/ros2_ws/build/cobot_py/prefix_override:/home/moose/ros2_ws/install/cobot_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cobot_py build --build-base /home/moose/ros2_ws/build/cobot_py/build install --record /home/moose/ros2_ws/build/cobot_py/install.log --single-version-externally-managed install_data
+[2.081s] Level 1:colcon.colcon_core.environment:checking '/home/moose/ros2_ws/install/cobot_py' for CMake module files
+[2.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/moose/ros2_ws/src/cobot_py' returned '0': PYTHONPATH=/home/moose/ros2_ws/build/cobot_py/prefix_override:/home/moose/ros2_ws/install/cobot_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cobot_py build --build-base /home/moose/ros2_ws/build/cobot_py/build install --record /home/moose/ros2_ws/build/cobot_py/install.log --single-version-externally-managed install_data
+[2.082s] Level 1:colcon.colcon_core.environment:checking '/home/moose/ros2_ws/install/cobot_py' for CMake config files
+[2.083s] Level 1:colcon.colcon_core.environment:checking '/home/moose/ros2_ws/install/cobot_py/lib'
+[2.083s] Level 1:colcon.colcon_core.environment:checking '/home/moose/ros2_ws/install/cobot_py/bin'
+[2.083s] Level 1:colcon.colcon_core.environment:checking '/home/moose/ros2_ws/install/cobot_py/lib/pkgconfig/cobot_py.pc'
+[2.084s] Level 1:colcon.colcon_core.environment:checking '/home/moose/ros2_ws/install/cobot_py/lib/python3.10/site-packages'
+[2.084s] Level 1:colcon.colcon_core.shell:create_environment_hook('cobot_py', 'pythonpath')
+[2.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/moose/ros2_ws/install/cobot_py/share/cobot_py/hook/pythonpath.ps1'
+[2.084s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/moose/ros2_ws/install/cobot_py/share/cobot_py/hook/pythonpath.dsv'
+[2.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/moose/ros2_ws/install/cobot_py/share/cobot_py/hook/pythonpath.sh'
+[2.085s] Level 1:colcon.colcon_core.environment:checking '/home/moose/ros2_ws/install/cobot_py/bin'
+[2.085s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cobot_py)
+[2.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/moose/ros2_ws/install/cobot_py/share/cobot_py/package.ps1'
+[2.086s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/moose/ros2_ws/install/cobot_py/share/cobot_py/package.dsv'
+[2.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/moose/ros2_ws/install/cobot_py/share/cobot_py/package.sh'
+[2.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/moose/ros2_ws/install/cobot_py/share/cobot_py/package.bash'
+[2.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/moose/ros2_ws/install/cobot_py/share/cobot_py/package.zsh'
+[2.088s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/moose/ros2_ws/install/cobot_py/share/colcon-core/packages/cobot_py)
+[2.088s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.088s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.089s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.089s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.095s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.095s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.095s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.107s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.108s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/moose/ros2_ws/install/local_setup.ps1'
+[2.109s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/moose/ros2_ws/install/_local_setup_util_ps1.py'
+[2.111s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/moose/ros2_ws/install/setup.ps1'
+[2.113s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/moose/ros2_ws/install/local_setup.sh'
+[2.114s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/moose/ros2_ws/install/_local_setup_util_sh.py'
+[2.114s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/moose/ros2_ws/install/setup.sh'
+[2.115s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/moose/ros2_ws/install/local_setup.bash'
+[2.116s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/moose/ros2_ws/install/setup.bash'
+[2.117s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/moose/ros2_ws/install/local_setup.zsh'
+[2.118s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/moose/ros2_ws/install/setup.zsh'

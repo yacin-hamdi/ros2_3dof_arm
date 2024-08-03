@@ -4,7 +4,7 @@
     <xacro:property name="base_height" value="0.2"/>
     <xacro:property name="base_size" value="0.4" />
     <xacro:property name="joint_radius_1" value="0.1" />
-    <xacro:property name="joint_length_1" value="0.3" />
+    <xacro:property name="joint_length_1" value="0.8" />
     <xacro:property name="joint_length_2" value="0.8"/>
 
 
@@ -185,7 +185,7 @@
     <joint name="solid_1_joint" type="revolute">
         <parent link="solid_1"/>
         <child link="link_2"/>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <origin xyz="0 0 0" rpy="0 -${pi/2} ${pi}"/>
         <axis xyz="0 1 0"/>
         <limit lower="${-pi}" upper="${pi}" effort="100" velocity="100"/>
         <dynamics friction="1000" damping="1000"/>

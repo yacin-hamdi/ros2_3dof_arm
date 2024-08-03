@@ -15,11 +15,11 @@ class MoveArm(Node):
         self.solid_2_joint_angle_ = .0
         self.solid_1_joint_angle_ = .0
         self.base_joint_1_ = .0
-        self.x_ = 0.0
+        self.x_ = 400.0
         self.y_ = 0.0
-        self.z_ = 400.0
+        self.z_ = 900.0
 
-        self.l1 = 300.0
+        self.l1 = 800.0
         self.l2 = 800.0
         self.l3 = 800.0
 
@@ -30,15 +30,15 @@ class MoveArm(Node):
 
 
     def publish_pos(self):
-        if self.z_ >= 1350.0:
+        if self.x_ >= 1400.0:
             self.state = False
-        elif self.z_ <= 600.0:
+        elif self.x_ <= 400.0:
             self.state = True
-
+            
         if self.state:
-            self.z_ += 1
+            self.x_ += 1
         else:
-            self.z_ -= 1
+            self.x_ -= 1
 
         
 
