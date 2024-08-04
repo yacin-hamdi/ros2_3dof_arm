@@ -37,6 +37,7 @@ class MoveArm2DOF(Node):
         point.positions = [0.0, q1, q2]
         msg.points = [point]
         self.move_publisher.publish(msg=msg)
+        self.forward_kinematic(q1, q2)
 
     def move_rectangle(self):
         while self.x_ >= 400.0:
@@ -70,6 +71,12 @@ class MoveArm2DOF(Node):
         
         self.get_logger().info(f"q1:{theta1}, q2:{theta2}")
         return theta1, theta2
+    
+    def forward_kinematic(self, theta1, theta2):
+        x = self.l2 * math.cos(theta1) + self.l3 * math.cos(theta1 + theta2)
+        y = self.l2 * math.sin(theta1) + self.l3 * math.sin(theta1 + theta2) + self.l1
+        self.get_logger().info(f"x:{self.x_}, calc_x:{x} | y:{self.y_}, calc_y:{y}")
+        return x, y
 
 
 
