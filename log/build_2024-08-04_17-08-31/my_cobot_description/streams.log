@@ -1,0 +1,25 @@
+[1.794s] Invoking command in '/home/moose/ros2_ws/build/my_cobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moose/ros2_ws/install/cobot_py:/opt/ros/humble /usr/bin/cmake --build /home/moose/ros2_ws/build/my_cobot_description -- -j4 -l4
+[2.199s] Invoked command in '/home/moose/ros2_ws/build/my_cobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moose/ros2_ws/install/cobot_py:/opt/ros/humble /usr/bin/cmake --build /home/moose/ros2_ws/build/my_cobot_description -- -j4 -l4
+[2.573s] Invoking command in '/home/moose/ros2_ws/build/my_cobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moose/ros2_ws/install/cobot_py:/opt/ros/humble /usr/bin/cmake --install /home/moose/ros2_ws/build/my_cobot_description
+[2.629s] -- Install configuration: ""
+[2.629s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/urdf
+[2.629s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/urdf/cobot_arm.xacro
+[2.629s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/urdf/cobot_arm_gazebo.xacro
+[2.630s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/urdf/common_properties.xacro
+[2.630s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/urdf/cobot.urdf.xacro
+[2.630s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/ament_index/resource_index/package_run_dependencies/my_cobot_description
+[2.630s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/ament_index/resource_index/parent_prefix_path/my_cobot_description
+[2.630s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/environment/ament_prefix_path.sh
+[2.631s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/environment/ament_prefix_path.dsv
+[2.631s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/environment/path.sh
+[2.631s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/environment/path.dsv
+[2.631s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/local_setup.bash
+[2.632s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/local_setup.sh
+[2.637s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/local_setup.zsh
+[2.637s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/local_setup.dsv
+[2.637s] -- Installing: /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/package.dsv
+[2.638s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/ament_index/resource_index/packages/my_cobot_description
+[2.638s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/cmake/my_cobot_descriptionConfig.cmake
+[2.638s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/cmake/my_cobot_descriptionConfig-version.cmake
+[2.638s] -- Up-to-date: /home/moose/ros2_ws/install/my_cobot_description/share/my_cobot_description/package.xml
+[2.729s] Invoked command in '/home/moose/ros2_ws/build/my_cobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moose/ros2_ws/install/cobot_py:/opt/ros/humble /usr/bin/cmake --install /home/moose/ros2_ws/build/my_cobot_description
