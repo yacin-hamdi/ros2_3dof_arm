@@ -1,9 +1,9 @@
 /home/moose/ros2_ws/install/cobot_py/lib/python3.10/site-packages/cobot_py/__init__.py
 /home/moose/ros2_ws/install/cobot_py/lib/python3.10/site-packages/cobot_py/2dof_move_arm.py
-/home/moose/ros2_ws/install/cobot_py/lib/python3.10/site-packages/cobot_py/move_arm.py
+/home/moose/ros2_ws/install/cobot_py/lib/python3.10/site-packages/cobot_py/3dof_move_arm.py
 /home/moose/ros2_ws/install/cobot_py/lib/python3.10/site-packages/cobot_py/__pycache__/__init__.cpython-310.pyc
 /home/moose/ros2_ws/install/cobot_py/lib/python3.10/site-packages/cobot_py/__pycache__/2dof_move_arm.cpython-310.pyc
-/home/moose/ros2_ws/install/cobot_py/lib/python3.10/site-packages/cobot_py/__pycache__/move_arm.cpython-310.pyc
+/home/moose/ros2_ws/install/cobot_py/lib/python3.10/site-packages/cobot_py/__pycache__/3dof_move_arm.cpython-310.pyc
 /home/moose/ros2_ws/install/cobot_py/share/ament_index/resource_index/packages/cobot_py
 /home/moose/ros2_ws/install/cobot_py/share/cobot_py/package.xml
 /home/moose/ros2_ws/install/cobot_py/lib/python3.10/site-packages/cobot_py-0.0.0-py3.10.egg-info/requires.txt
@@ -14,3 +14,4 @@
 /home/moose/ros2_ws/install/cobot_py/lib/python3.10/site-packages/cobot_py-0.0.0-py3.10.egg-info/PKG-INFO
 /home/moose/ros2_ws/install/cobot_py/lib/python3.10/site-packages/cobot_py-0.0.0-py3.10.egg-info/SOURCES.txt
 /home/moose/ros2_ws/install/cobot_py/lib/cobot_py/2dof_move_arm
+/home/moose/ros2_ws/install/cobot_py/lib/cobot_py/3dof_move_arm

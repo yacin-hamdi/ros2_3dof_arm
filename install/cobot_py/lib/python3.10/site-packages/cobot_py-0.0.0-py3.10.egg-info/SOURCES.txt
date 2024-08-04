@@ -9,8 +9,8 @@ setup.py
 ../../build/cobot_py/cobot_py.egg-info/top_level.txt
 ../../build/cobot_py/cobot_py.egg-info/zip-safe
 cobot_py/2dof_move_arm.py
+cobot_py/3dof_move_arm.py
 cobot_py/__init__.py
-cobot_py/move_arm.py
 resource/cobot_py
 test/test_copyright.py
 test/test_flake8.py
