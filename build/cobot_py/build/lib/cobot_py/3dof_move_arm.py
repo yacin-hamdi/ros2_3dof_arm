@@ -37,6 +37,7 @@ class MoveArm(Node):
         point.positions = [q1, q2, q3]
         msg.points = [point]
         self.move_publisher.publish(msg=msg)
+        self.forward_kinematic(q1, q2, q3)
 
     def move_rectangle(self):
         while self.x_ >= 400.0:
@@ -55,6 +56,14 @@ class MoveArm(Node):
             self.y_ -= 1
             self.publish_pos()
 
+        while self.z_ >= 400.0:
+            self.z_ -= 1
+            self.publish_pos()
+            
+        while self.z_ <= 800.0:
+            self.z_ += 1
+            self.publish_pos()
+
     
 
     def inverse_kinematic(self, x, y, z):
@@ -70,6 +79,15 @@ class MoveArm(Node):
 
         self.get_logger().info(f"q1:{theta1}, q2:{theta2}, q3:{theta3}")
         return theta1, theta2, theta3
+
+    def forward_kinematic(self, theta1, theta2, theta3):
+        h = self.l2 * math.cos(theta2) + self.l3 * math.cos(theta2 + theta3) 
+        z = self.l2 * math.sin(theta2) + self.l3 * math.sin(theta2 + theta3) + self.l1
+        x = h * math.cos(theta1)
+        y = h * math.sin(theta1)
+
+        self.get_logger().info(f"x:{self.x_}, calc_x:{x} | y:{self.y_}, calc_y:{y} | z:{self.z_}, calc_z:{z}")
+        return x, y, z
 
 
 
